@@ -13,14 +13,14 @@ const posts = (await getCollection("blog")).sort(
 const itemListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "@id": "https://musehsh9-a11y.github.io/kensho-blog/#itemlist",
+  "@id": "https://kensho-nikki.com/#itemlist",
   itemListElement: posts.map((post, index) => ({
     "@type": "ListItem",
     position: index + 1,
     name: post.data.title,
     item: {
       "@type": "WebPage",
-      "@id": `https://musehsh9-a11y.github.io/kensho-blog/blog/${post.id}/`,
+      "@id": `https://kensho-nikki.com/blog/${post.id}/`,
     },
   })),
 };

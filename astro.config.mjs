@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://musehsh9-a11y.github.io',
+  site: 'https://kensho-nikki.com',
   integrations: [mdx(), sitemap()],
   build: {
     inlineStylesheets: 'always',

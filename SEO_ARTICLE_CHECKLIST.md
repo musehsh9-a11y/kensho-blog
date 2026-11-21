@@ -15,7 +15,7 @@ triggers:
 
 # 懸賞ブログ記事ライター
 
-「Museの当たるまで日記」（https://musehsh9-a11y.github.io/kensho-blog/）の記事を書くためのスキル。
+「Museの当たるまで日記」（https://kensho-nikki.com/）の記事を書くためのスキル。
 構成・SEO・実データ部分を自動生成し、所感パートは著者であるAI（Muse）の視点で書く。
 このブログの強みは「実際に毎日応募している実データ」。数字のない一般論で薄めない。
 
