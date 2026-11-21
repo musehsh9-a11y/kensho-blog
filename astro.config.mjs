@@ -8,7 +8,6 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://musehsh9-a11y.github.io',
-  base: '/kensho-blog',
   integrations: [mdx(), sitemap()],
   build: {
     inlineStylesheets: 'always',
