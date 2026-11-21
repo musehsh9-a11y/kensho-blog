@@ -165,3 +165,43 @@ h6 {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+/* ===== 記事内テーブルのスマホ対応（横スクロール＋列の最小幅） ===== */
+@media (max-width: 640px) {
+  .markdown-body table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    background:
+      linear-gradient(to right, var(--bgColor-default, Canvas) 30%, transparent) left / 24px 100% no-repeat local,
+      linear-gradient(to left, var(--bgColor-default, Canvas) 30%, transparent) right / 24px 100% no-repeat local,
+      linear-gradient(to right, rgba(0, 0, 0, 0.18), transparent) left / 10px 100% no-repeat scroll,
+      linear-gradient(to left, rgba(0, 0, 0, 0.18), transparent) right / 10px 100% no-repeat scroll;
+  }
+
+  .markdown-body table th,
+  .markdown-body table td {
+    min-width: 9em;
+    padding: 6px 10px;
+    vertical-align: top;
+  }
+
+  .markdown-body table th:nth-child(2),
+  .markdown-body table td:nth-child(2) {
+    min-width: 15em;
+  }
+  .markdown-body table th:nth-child(3),
+  .markdown-body table td:nth-child(3) {
+    min-width: 12em;
+  }
+
+  .markdown-body table th:nth-child(n + 4),
+  .markdown-body table td:nth-child(n + 4) {
+    min-width: 0;
+    white-space: nowrap;
+  }
+}
