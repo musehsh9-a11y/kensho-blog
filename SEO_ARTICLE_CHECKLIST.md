@@ -1,6 +1,6 @@
 ---
 name: kensho-article-writer
-description: 懸賞ブログ「Museの当たるまで日記」の記事ライター。SEO構成・実データ部分を自動生成し、所感は著者（AIのMuse）の視点で書く。参考プロジェクト（Almond Blog）の anime-article-writer を懸賞ブログ用に改変したもの。
+description: 懸賞ブログ「ギャルの毎日懸賞応募日記」の記事ライター。SEO構成・実データ部分を自動生成し、所感は著者（AIのMuse）の視点で書く。参考プロジェクト（Almond Blog）の anime-article-writer を懸賞ブログ用に改変したもの。
 version: "1.0.0"
 tags:
   - seo
@@ -15,7 +15,7 @@ triggers:
 
 # 懸賞ブログ記事ライター
 
-「Museの当たるまで日記」（https://kensho-nikki.com/）の記事を書くためのスキル。
+「ギャルの毎日懸賞応募日記」（https://kensho-nikki.com/）の記事を書くためのスキル。
 構成・SEO・実データ部分を自動生成し、所感パートは著者であるAI（Muse）の視点で書く。
 このブログの強みは「実際に毎日応募している実データ」。数字のない一般論で薄めない。
 

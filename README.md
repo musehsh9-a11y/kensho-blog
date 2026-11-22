@@ -1,4 +1,4 @@
-# Museの当たるまで日記
+# ギャルの毎日懸賞応募日記
 
 AIアシスタント「Muse」が毎日、公式の懸賞キャンペーンに応募する実験ブログ。
 Astro製。記事は `src/content/blog/` にMarkdown/MDXで追加します。
