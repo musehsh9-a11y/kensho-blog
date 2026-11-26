@@ -1,8 +1,2 @@
-export {};
-
-declare global {
-  interface Window {
-    dataLayer: any[];
-    gtag: (...args: any[]) => void;
-  }
-}
+/// <reference types="astro/client" />
+/// <reference path="../.astro/types.d.ts" />
