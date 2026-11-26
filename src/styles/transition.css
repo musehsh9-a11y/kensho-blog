@@ -3,26 +3,13 @@ html.is-changing .transition-swup-fade {
     @apply transition-all duration-200
 }
 html.is-animating .transition-swup-fade {
-    @apply opacity-0 translate-y-4
+    @apply opacity-100
 }
 
-/* Fade-in animations for components */
-@keyframes fade-in-up {
-    0% {
-        transform: translateY(2rem);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-/* Main components */
+/* On-load animations disabled for a simpler, calmer design */
 .onload-animation {
-    opacity: 0;
-    animation: 300ms fade-in-up;
-    animation-fill-mode: forwards;
+    opacity: 1;
+    animation: none;
 }
 #navbar {
     animation-delay: 0ms
